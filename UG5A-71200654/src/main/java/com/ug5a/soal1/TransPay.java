@@ -18,11 +18,9 @@ public class TransPay
     public long getSaldo() {
         return saldo;
     }
-
     public void setSaldo(long saldo) {
         this.saldo = saldo;
     }
-
     public void topUp(long saldo){
         this.saldo += saldo;
     }
