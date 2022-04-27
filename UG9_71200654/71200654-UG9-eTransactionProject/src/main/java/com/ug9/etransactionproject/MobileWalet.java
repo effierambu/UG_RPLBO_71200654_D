@@ -13,11 +13,13 @@ public class MobileWalet extends DigitalPayment{
     }
 
     public MobileWalet(String nama, long saldo,String noHp) {
-        super(nama, saldo, noHp );
+        super(nama, saldo);
+        this.noHp=noHp;
     }
 
     @Override
     public void transfer(DigitalPayment dp, long nominal) {
+        long ssaldo=this.getSaldo();
 
     }
 }

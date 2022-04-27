@@ -4,7 +4,7 @@ public abstract class DigitalPayment {
     private String nama;
     private long saldo;
 
-    public DigitalPayment(String nama, long saldo, String noRekening) {
+    public DigitalPayment(String nama, long saldo) {
         this.nama = nama;
         this.saldo = saldo;
     }

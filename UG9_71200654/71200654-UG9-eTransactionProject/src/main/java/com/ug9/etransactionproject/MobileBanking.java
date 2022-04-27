@@ -6,11 +6,12 @@ public class MobileBanking extends DigitalPayment {
     private String noRekening;
 
     public MobileBanking(String nama, long saldo,String noRekening) {
-        super(nama, saldo,noRekening);
+        super(nama, saldo);
     }
 
     @Override
     public void transfer(DigitalPayment dp, long nominal) {
+
 
     }
 
